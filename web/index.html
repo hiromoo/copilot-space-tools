@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Copilot Spaces テンプレート生成</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2em;
+        }
+
+        label {
+            display: block;
+            margin-top: 1em;
+        }
+
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Copilot Spaces テンプレート生成</h1>
+    <form id="form">
+        <label>言語 / Language:
+            <select name="lang">
+                <option value="ja">日本語</option>
+                <option value="en">English</option>
+            </select>
+        </label>
+        <label id="label-projectName">プロジェクト名: <input name="projectName"></label>
+        <label id="label-description">概要: <input name="description"></label>
+        <label id="label-members">担当者: <input name="members"></label>
+        <label id="label-background">設計思想・背景: <input name="background"></label>
+        <label id="label-tech">使用技術: <input name="tech"></label>
+        <label id="label-faqQ">FAQ質問: <input name="faqQ"></label>
+        <label id="label-faqA">FAQ回答: <input name="faqA"></label>
+        <label id="label-rules">運用ルール: <input name="rules"></label>
+        <label id="label-copilotCmd">Copilot命令: <input name="copilotCmd"></label>
+        <button type="submit">生成</button>
+    </form>
+    <h2>Markdown出力</h2>
+    <textarea id="output" rows="20"></textarea>
+    <script src="main.js"></script>
+</body>
+
+</html>
