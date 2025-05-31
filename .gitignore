@@ -18,3 +18,4 @@ pnpm-lock.yaml
 copilot_space.md
 coverage/
 *.tgz
+src/**/*.js
