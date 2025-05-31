@@ -47,9 +47,14 @@ Open `web/index.html` in your browser, select Japanese or English, fill out the 
 
 ## Scripts & Quick Start
 
-- **Build & Clean**
+- **Build (includes clean)**
   ```sh
   npm run build
+  ```
+  _Clean is automatically run before build._
+- **Clean only**
+  ```sh
+  npm run clean
   ```
 - **Run CLI Tool**
   ```sh
