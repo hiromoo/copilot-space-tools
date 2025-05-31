@@ -1,5 +1,7 @@
 # Copilot Spaces テンプレート自動生成ツール
 
+![Web UI プレビュー](assets/web-preview.png)
+
 このリポジトリは、GitHub Copilot Spaces 用の属人化防止テンプレートを簡単に作成できる CLI ツール・Web UI を提供します。
 
 ## 主な機能

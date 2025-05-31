@@ -1,5 +1,7 @@
 # Copilot Spaces Template Generator Tool
 
+![Web UI Preview](assets/web-preview.png)
+
 This repository provides CLI and Web UI tools to easily create anti-siloing templates for GitHub Copilot Spaces.
 
 ## Features
